@@ -5,7 +5,7 @@
  
  The development of technology should bring more fair, trust, and profit to benefit everyone in the world not just someone. 
 
- There will be one+ kinds of token, but only reason for them to exist is we need trading media not gambling media. So, the supply amount        should be increased by trading demand, and the price should be relative flat. 
+ There will be one+ kinds of token, but the only reason for token existing is because we need trading media not gambling media. So, the supply amount should be increased by trading demand, and the price should be relative flat. 
 
  First, build a new free payment system. So, everyone can make payment for free.
  
