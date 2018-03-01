@@ -112,10 +112,10 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 32-bit integer with any alignment.
          */
-        pchMessageStart[0] = 0x8q;   ////
-        pchMessageStart[1] = 0xin;   ////
-        pchMessageStart[2] = 0xg8;   ////
-        pchMessageStart[3] = 0xqi;   ////
+        pchMessageStart[0] = 0x0a;   ////
+        pchMessageStart[1] = 0x1b;   ////
+        pchMessageStart[2] = 0x2c;   ////
+        pchMessageStart[3] = 0x3d;   ////
         nDefaultPort = 9567;  // 8333+1234
         nPruneAfterHeight = 100000;
 
@@ -214,10 +214,10 @@ public:
         // By default assume that the signatures in ancestors of this block are valid.
         consensus.defaultAssumeValid = uint256S("0x0000000002e9e7b00e1f6dc5123a04aad68dd0f0968d8c7aa45f6640795c37b1"); //1135275
 
-        pchMessageStart[0] = 0xqi;                    ////
-        pchMessageStart[1] = 0x8n;                    ////
-        pchMessageStart[2] = 0xgq;                    ////
-        pchMessageStart[3] = 0xb8;                    ////
+        pchMessageStart[0] = 0x1a;                    ////
+        pchMessageStart[1] = 0x2b;                    ////
+        pchMessageStart[2] = 0x3c;                    ////
+        pchMessageStart[3] = 0x4d;                    ////
         nDefaultPort = 20678;                         ////18333+2345
         nPruneAfterHeight = 1000;
 
@@ -301,10 +301,10 @@ public:
         // By default assume that the signatures in ancestors of this block are valid.
         consensus.defaultAssumeValid = uint256S("0x00");
 
-        pchMessageStart[0] = 0xb8;                ////
-        pchMessageStart[1] = 0xni;                ////
-        pchMessageStart[2] = 0x8g;                ////
-        pchMessageStart[3] = 0xiq;                ////
+        pchMessageStart[0] = 0x2a;                ////
+        pchMessageStart[1] = 0x3b;                ////
+        pchMessageStart[2] = 0x4c;                ////
+        pchMessageStart[3] = 0x5d;                ////
         nDefaultPort = 21900;                     //// 18444+3456             
         nPruneAfterHeight = 1000;
 
