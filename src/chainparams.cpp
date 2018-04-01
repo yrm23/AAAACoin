@@ -119,11 +119,18 @@ public:
         nDefaultPort = 9567;  // 8333+1234
         nPruneAfterHeight = 100000;
 
-        genesis = CreateGenesisBlock(1518134888, 2083880693, 0x1d00ffff, 1, 8 * COIN);   //// change var only 1 2 5 no 3 4
-        consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x"));               ////
-        assert(genesis.hashMerkleRoot == uint256S("0x"));                   ////
+       // genesis = CreateGenesisBlock(1518134888, 2083880693, 0x1d00ffff, 1, 8 * COIN);   //// change var only 1 2 5 no 3 4
+        // consensus.hashGenesisBlock = genesis.GetHash();
+        //assert(consensus.hashGenesisBlock == uint256S("0x"));               ////
+        // assert(genesis.hashMerkleRoot == uint256S("0x"));                   ////
 
+        genesis = CreateGenesisBlock(1522462978, 3839485851, 0x1d00ffff, 1, 50 * COIN);
+    //genesis = CreateGenesisBlock(1231006505, 2083236893, 0x1d00ffff, 1, 50 * COIN);
+        consensus.hashGenesisBlock = genesis.GetHash();
+        assert(consensus.hashGenesisBlock == uint256S("0x00000000a95084784cca93d8072541e5c8c106a06ca1e28306e7d5f6422690f7"));
+        assert(genesis.hashMerkleRoot == uint256S("0xae2014c9a7d7e7a824b66c30d9bfc6270669d89188f6cc6f0d24e4c523e94809"));
+ 
+        
         // Note that of those with the service bits flag, most only support a subset of possible options
        //+ vSeeds.emplace_back("169.254.151.189/16", true); //// Yong
        //+ vSeeds.emplace_back("dnsseed.bluematt.me", true); // Matt Corallo, only supports x9
@@ -221,11 +228,18 @@ public:
         nDefaultPort = 20678;                         ////18333+2345
         nPruneAfterHeight = 1000;
 
-        genesis = CreateGenesisBlock(1496688602, 414098458, 0x1d00ffff, 1, 8 * COIN);       //// only var 1 5
-        consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x"));                             ////
-        assert(genesis.hashMerkleRoot == uint256S("0x"));                                 ////
+        // genesis = CreateGenesisBlock(1496688602, 414098458, 0x1d00ffff, 1, 8 * COIN);       //// only var 1 5
+        // consensus.hashGenesisBlock = genesis.GetHash();
+        // assert(consensus.hashGenesisBlock == uint256S("0x"));                             ////
+        // assert(genesis.hashMerkleRoot == uint256S("0x"));                                 ////
 
+        genesis = CreateGenesisBlock(1522462978, 3839485851, 0x1d00ffff, 1, 50 * COIN);
+        //genesis = CreateGenesisBlock(1231006505, 2083236893, 0x1d00ffff, 1, 50 * COIN);
+        consensus.hashGenesisBlock = genesis.GetHash();
+        assert(consensus.hashGenesisBlock == uint256S("0x00000000a95084784cca93d8072541e5c8c106a06ca1e28306e7d5f6422690f7"));
+        assert(genesis.hashMerkleRoot == uint256S("0xae2014c9a7d7e7a824b66c30d9bfc6270669d89188f6cc6f0d24e4c523e94809"));
+
+        
         vFixedSeeds.clear();
         vSeeds.clear();
         // nodes with support for servicebits filtering should be at the top
