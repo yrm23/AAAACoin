@@ -1,5 +1,5 @@
  FreeMarket: 
- Trading any kind of asset,  for any size, at anytime, with anyone, from anywhere in the world, for FREE
+ FreeMarket Dedicated to this world with the freedom for anyone to trade anything at anytime from anywhere without charge.
    
  The blockchain technology should bring more fair, trust, and profit to benefit everyone in the world not just someone. 
 
