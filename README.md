@@ -1,20 +1,16 @@
- 
- Utopia-Chain
- 
- We will distroy the business world by creating a new one. 
- 
- The development of technology should bring more fair, trust, and profit to benefit everyone in the world not just someone. 
+ FreeMarket: 
+ Trading any kind of asset,  for any size, at anytime, with anyone, from anywhere in the world, for FREE
+   
+ The blockchain technology should bring more fair, trust, and profit to benefit everyone in the world not just someone. 
 
- There will be one+ kinds of token, but the only reason for token existing is because we need trading media not gambling media. So, the supply amount should be increased by trading demand, and the price should be relative flat. 
-
- First, build a new free payment system. So, everyone can make payment for free.
+ Firstly, build a new blockchain payment system , for anyone to make payment FREE.
  
- Second, add a self digital trading asset issuing property to the system.  So,  everyone can issue whatever digital asset for trading. 
+ Secondly, build a new blockchain asset exchanging system, for anyone to exchange asset FREE.
  
- Third, add a free digital asset exhanging propery to the system. So, everyone can trade digital asset for free.
+ Thirdly, build a new blockchain infomation publishing sytem, for anyone to publishing any information to the world.
  
- Fourth, add a self trastable information storage function.
- 
+ Fourthly, build a new trading asset listing system, for anyone to list any asset for trading 
+  
 ...
 
 ...
