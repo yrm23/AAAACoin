@@ -1,7 +1,9 @@
- FreeMarket: 
- FreeMarket Dedicated to this world with the freedom for anyone to trade anything at anytime from anywhere without charge.
-   
- The blockchain technology should bring more fair, trust, and profit to benefit everyone in the world not just someone. 
+ EverMarket: trading for Whatever, with Whoever, from Wherever, at Whenever, by However, without Fee.
+
+ We believe the technology should bring more fair, trust, and profit to benefit everyone in the world, not just for someone, somewhere,
+ sometime, and someway. With the help of blockchain technology we can make the world more beautiful.
+ 
+ Our plan as following:
 
  Firstly, build a new blockchain payment system , for anyone to make payment FREE.
  
@@ -11,8 +13,10 @@
  
  Fourthly, build a new trading asset listing system, for anyone to list any asset for trading 
   
-...
-
+ Fivethly, 
+ 
+ Sixthly, 
+ 
 ...
 
 ...
