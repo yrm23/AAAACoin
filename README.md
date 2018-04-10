@@ -1,4 +1,4 @@
- In EverMarket, With blockchain you can trade for Whatever, with Whoever, from Wherever, at Whenever, by However, & no Fee.
+ EverMarket: Trading for Whatever, with Whoever, from Wherever, at Whenever, by However, & no Fee, using Blockchain.
 
  We believe the technology should bring more fair, trust, and profit to benefit everyone in the world, not just for someone, somewhere,
  sometime, and someway. With the help of blockchain technology we can make the world more beautiful.
