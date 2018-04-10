@@ -151,7 +151,7 @@ public:
 
         checkpointData = {
             {
-                { 0, uint256S("0x001")},    //--//
+                { 0, uint256S("0x")},    //--//
     //--//            { 33333, uint256S("0x000000002dd5588a74784eaa7ab0507a18ad16a236e7b1ce69f00d7ddfb5d0a6")},
     //--//            { 74000, uint256S("0x0000000000573993a3c9e41ce34471c079dcf5f52a0e824a81e7f953b8661a20")},
     //--//            {105000, uint256S("0x00000000000291ce28027faea320c8d2b054b2e0fe44a773f3eefb151d6bdc97")},
@@ -327,7 +327,7 @@ public:
 
         checkpointData = {
             {
-                {0, uint256S("0x")},  //  need new hash
+                {0, uint256S("0x")},  //--//  need new hash
             }
         };
 
