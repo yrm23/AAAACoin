@@ -48,7 +48,7 @@ static CBlock CreateGenesisBlock(const char* pszTimestamp, const CScript& genesi
  */
 static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward)
 {   
-    const char* pszTimestamp = "In EverMarket, With blockchain you can trade for Whatever, with Whoever, from Wherever, at Whenever, by However, & no Fee!!! 04/09/2018";       //--//
+    const char* pszTimestamp = "EverMarket: Trading for Whatever, with Whoever, from Wherever, at Whenever, by However, & no Fee, using Blockchain!!! 04/09/2018";       //--//
     const CScript genesisOutputScript = CScript() << ParseHex("042db5eccd3100e0373bf51daaa0857eb1410bd8772c8c8513599f15c3f5a0decaf6bfedb4f25e454328f67f6a5823f3f7c7efda274a276a37189139957402435d") << OP_CHECKSIG; //--//
     return CreateGenesisBlock(pszTimestamp, genesisOutputScript, nTime, nNonce, nBits, nVersion, genesisReward);
 }
