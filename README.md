@@ -1,4 +1,4 @@
- EverMarket: trading for Whatever, with Whoever, from Wherever, at Whenever, by However, with no Fee.
+ EverMarket: trading for Whatever, with Whoever, from Wherever, at Whenever, by However, & no Fee.
 
  We believe the technology should bring more fair, trust, and profit to benefit everyone in the world, not just for someone, somewhere,
  sometime, and someway. With the help of blockchain technology we can make the world more beautiful.
