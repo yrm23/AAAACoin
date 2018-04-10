@@ -48,8 +48,8 @@ static CBlock CreateGenesisBlock(const char* pszTimestamp, const CScript& genesi
  */
 static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward)
 {   
-    const char* pszTimestamp = "EverMarket: trading for Whatever, with Whoever, from Wherever, at Whenever, by However, with no Fee!!! 04/09/2018";       //--//
-    const CScript genesisOutputScript = CScript() << ParseHex("042db5eccd3100e0373bf51daaa0857eb1410bd8772c8c8513599f15c3f5a0decaf6bfedb4f25e454328f67f6a5823f3f7c7efda274a276a37189139957402435d") << OP_CHECKSIG; ////
+    const char* pszTimestamp = "EverMarket: trading for Whatever, with Whoever, from Wherever, at Whenever, by However, & no Fee!!! 04/09/2018";       //--//
+    const CScript genesisOutputScript = CScript() << ParseHex("042db5eccd3100e0373bf51daaa0857eb1410bd8772c8c8513599f15c3f5a0decaf6bfedb4f25e454328f67f6a5823f3f7c7efda274a276a37189139957402435d") << OP_CHECKSIG; //--//
     return CreateGenesisBlock(pszTimestamp, genesisOutputScript, nTime, nNonce, nBits, nVersion, genesisReward);
 }
 
@@ -212,10 +212,10 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 1493596800; // May 1st 2017
 
         // The best chain should have at least this much work.
-        consensus.nMinimumChainWork = uint256S("0x00");   //
+        consensus.nMinimumChainWork = uint256S("0x00");   //--//
 
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0x0000000002e9e7b00e1f6dc5123a04aad68dd0f0968d8c7aa45f6640795c37b1"); //1135275
+        consensus.defaultAssumeValid = uint256S("0x00");  //--//
 
         pchMessageStart[0] = 0x1a;                    //--//
         pchMessageStart[1] = 0x3b;                    //--//
@@ -245,7 +245,7 @@ public:
         base58Prefixes[EXT_PUBLIC_KEY] = {0x04, 0x35, 0x87, 0xCF};
         base58Prefixes[EXT_SECRET_KEY] = {0x04, 0x35, 0x83, 0x94};
 
-        bech32_hrp = "tem";              //--//
+        bech32_hrp = "emt";              //--//
 
         //--// vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_test, pnSeed6_test + ARRAYLEN(pnSeed6_test));
 
