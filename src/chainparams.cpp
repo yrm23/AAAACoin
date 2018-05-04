@@ -125,8 +125,7 @@ public:
         consensus.hashGenesisBlock = genesis.GetHash();
         assert(consensus.hashGenesisBlock == uint256S("0x"));     //--// need to put in new hash of genesis block
         assert(genesis.hashMerkleRoot == uint256S("0x"));         //--// need to put in new hash of genesis block merkle root
-        vFixedSeeds.clear();           //--// doesn't have any fixed seeds
-        vSeeds.clear();                //--// doesn't have any DNS seeds
+
         // Note that of those with the service bits flag, most only support a subset of possible options
        //--//+ vSeeds.emplace_back("169.254.151.189/16", true); //// Yong
        //--//+ vSeeds.emplace_back("dnsseed.bluematt.me", true); // Matt Corallo, only supports x9
