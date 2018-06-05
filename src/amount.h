@@ -14,7 +14,7 @@ typedef int64_t CAmount;
 static const CAmount COIN = 100000000;
 static const CAmount CENT = 1000000;
 
-// COIN = SHELL; SAND = 1;
+/////////                   COIN = SHELL; SAND = 1;
 
 
 /** No amount larger than this (in satoshi) is valid.
