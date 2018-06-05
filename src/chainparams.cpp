@@ -224,9 +224,9 @@ public:
         nPruneAfterHeight = 1000;
 
 
-        genesis = CreateGenesisBlock(1528205527, 3319903890, 0x1d00ffff, 1, 21000000 * COIN);  //--// need to change to new time
+        genesis = CreateGenesisBlock(1528218088, 2115436978, 0x1d00ffff, 1, 21000000 * COIN);  //--// need to change to new time
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x000000006f6e4710dee548e7ea74be5bafed8fb74e8cf7204c7151c6473355ea"));  //--// need put in new test net genesis block hash
+        assert(consensus.hashGenesisBlock == uint256S("0x00000000d197e59e0fea1719fce0c580477c958848b5732dfd33ad1e48fb1f75"));  //--// need put in new test net genesis block hash
         assert(genesis.hashMerkleRoot == uint256S("0x9f0e59e86bcc4dc186b47596c81877078dbd78cf5389c3573f1a016efb8d394c"));       //--// need put in new test net hash of genesis block merkle tree
 
         
@@ -255,13 +255,13 @@ public:
 
         checkpointData = {
             {
-                {0, uint256S("0x000000006f6e4710dee548e7ea74be5bafed8fb74e8cf7204c7151c6473355ea")},   //--// need to put in test net genesis block hash
+                {0, uint256S("0x00000000d197e59e0fea1719fce0c580477c958848b5732dfd33ad1e48fb1f75")},   //--// need to put in test net genesis block hash
             }
         };
 
         chainTxData = ChainTxData{
             // Data as of block 000000006f6e4710dee548e7ea74be5bafed8fb74e8cf7204c7151c6473355ea (height 0)
-            1528205527,       //--// 
+            1528218088,       //--// 
             0,       //--// 
             0.01     //--// 
         };
