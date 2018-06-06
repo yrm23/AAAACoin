@@ -120,7 +120,7 @@ public:
         nDefaultPort = 9567;  //--//   
         nPruneAfterHeight = 100000; 
 
-        genesis = CreateGenesisBlock(1528205527, 3319903890, 0x1d00ffff, 1, 50 * COIN);      //--// all 21,000,000 coins
+        genesis = CreateGenesisBlock(1528205527, 3319903890, 0x1d00ffff, 1, 21000000 * COIN);      //--// all 21,000,000 coins
     //genesis = CreateGenesisBlock(1231006505, 2083236893, 0x1d00ffff, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
         assert(consensus.hashGenesisBlock == uint256S("0x000000006f6e4710dee548e7ea74be5bafed8fb74e8cf7204c7151c6473355ea"));     //--// need to put in new hash of genesis block
@@ -224,7 +224,7 @@ public:
         nPruneAfterHeight = 1000;
 
 
-        genesis = CreateGenesisBlock(1528218088, 2115436978, 0x1d00ffff, 1, 50 * COIN);  //--// need to change to new time
+        genesis = CreateGenesisBlock(1528218088, 2115436978, 0x1d00ffff, 1, 21000000 * COIN);  //--// need to change to new time
         consensus.hashGenesisBlock = genesis.GetHash();
         assert(consensus.hashGenesisBlock == uint256S("0x00000000d197e59e0fea1719fce0c580477c958848b5732dfd33ad1e48fb1f75"));  //--// need put in new test net genesis block hash
         assert(genesis.hashMerkleRoot == uint256S("0x9f0e59e86bcc4dc186b47596c81877078dbd78cf5389c3573f1a016efb8d394c"));       //--// need put in new test net hash of genesis block merkle tree
@@ -312,7 +312,7 @@ public:
         nDefaultPort = 19678;                     //--//              
         nPruneAfterHeight = 1000;
 
-        genesis = CreateGenesisBlock(1528220315, 4278082768, 0x1d00ffff, 1, 50 * COIN);                 //--// need to put in new time
+        genesis = CreateGenesisBlock(1528220315, 4278082768, 0x1d00ffff, 1, 21000000 * COIN);                 //--// need to put in new time
         consensus.hashGenesisBlock = genesis.GetHash();
         assert(consensus.hashGenesisBlock == uint256S("0x00000000379379d30c1b37068ce18340594543c8768e58bb0dd307bb4296c48b"));                  //--//  need to put in new hash
         assert(genesis.hashMerkleRoot == uint256S("0x9f0e59e86bcc4dc186b47596c81877078dbd78cf5389c3573f1a016efb8d394c"));                      //--//  need to put in new hash
