@@ -123,7 +123,9 @@ public:
         genesis = CreateGenesisBlock(1528205527, 3319903890, 0x1d00ffff, 1, 21000000 * COIN);      //--// all 21,000,000 coins
     //genesis = CreateGenesisBlock(1231006505, 2083236893, 0x1d00ffff, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
+        printf("consensus.hashGenesisBlock = %s\n", genesis.GetHash().ToString().c_str());
         assert(consensus.hashGenesisBlock == uint256S("0x000000006f6e4710dee548e7ea74be5bafed8fb74e8cf7204c7151c6473355ea"));     //--// need to put in new hash of genesis block
+        printf("genesis.hashMerkleRoot = %s\n", BlockMerkleRoot(genesis).ToString().c_str());
         assert(genesis.hashMerkleRoot == uint256S("0x9f0e59e86bcc4dc186b47596c81877078dbd78cf5389c3573f1a016efb8d394c"));         //--// need to put in new hash of genesis block merkle root
 
         // Note that of those with the service bits flag, most only support a subset of possible options
@@ -160,7 +162,7 @@ public:
     //--//            {210000, uint256S("0x000000000000048b95347e83192f69cf0366076336c639f9b7228e9ba171342e")},
     //--//            {216116, uint256S("0x00000000000001b4f4b433e81ee46494af945cf96014816a4e2370f11b23df4e")},
     //--//            {225430, uint256S("0x00000000000001c108384350f74090433e7fcf79a606b8e797f065b130575932")},
-    //--//            {250000, uint256S("0x000000000000003887df1f29024b06fc2200b55f8af8f35453d7be294df2d214")},
+    //-i-//            {250000, uint256S("0x000000000000003887df1f29024b06fc2200b55f8af8f35453d7be294df2d214")},
     //--//            {279000, uint256S("0x0000000000000001ae8c72a0b0c301f67e3afca10e819efa9041e458e9bd7e40")},
     //--//            {295000, uint256S("0x00000000000000004d9b4ef50f0f9d686fd69db2e03af35a100370c64632a983")},
             }
