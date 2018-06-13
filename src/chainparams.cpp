@@ -77,7 +77,7 @@ public:
         consensus.nSubsidyHalvingInterval = 2100000;  //--//
         consensus.BIP16Height = 0;    //--// always BIP16   00000000000000ce80a7e057163a4db1d5ad7b20fb6f598c9597b9665c8fb0d4 - April 1, 2012
         consensus.BIP34Height = 0;    //--// always BIP34
-        consensus.BIP34Hash = uint256S("0x000000000000024b89b42a942fe0d9fea3bb44ab7bd1b19115dd6a759c0808b8");
+        consensus.BIP34Hash = uint256();
         consensus.BIP65Height = 0;    //--// always BIP65  000000000000000004c2b624ed5d7756c508d90fd0da2c7c679febfa6c4735f0
         consensus.BIP66Height = 0;    //--// always BIP66  00000000000000000379eaa19dce8c9b722d46ae6a57c2f1a988119488b50931
         consensus.powLimit = uint256S("7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");            
@@ -152,7 +152,7 @@ public:
 
         checkpointData = {
             {
-                          { 0, uint256S("0x000000002c12c10708a6d56cbda2ab1a49933a9e9db3221ae71489d4be63bf91")},    //--//
+       ////                   { 0, uint256S("0x000000002c12c10708a6d56cbda2ab1a49933a9e9db3221ae71489d4be63bf91")},    //--//
     //--//            { 33333, uint256S("0x000000002dd5588a74784eaa7ab0507a18ad16a236e7b1ce69f00d7ddfb5d0a6")},
     //--//            { 74000, uint256S("0x0000000000573993a3c9e41ce34471c079dcf5f52a0e824a81e7f953b8661a20")},
     //--//            {105000, uint256S("0x00000000000291ce28027faea320c8d2b054b2e0fe44a773f3eefb151d6bdc97")},
@@ -170,10 +170,10 @@ public:
 
         chainTxData = ChainTxData{
             // Data as of block 000000000000000000d97e53664d17967bd4ee50b23abb92e54a34eb222d15ae (height 478913).
-            1528609978,        //--// * UNIX timestamp for genesis block (need to put)
-            0,        //--// * total number of transactions between genesis and that timestamp
+//            1528609978,        //--// * UNIX timestamp for genesis block (need to put)
+//            0,        //--// * total number of transactions between genesis and that timestamp
                         //   (the tx=... number in the SetBestChain debug.log lines)
-            0.1        //--// * estimated number of transactions per second after that timestamp
+//            0.1        //--// * estimated number of transactions per second after that timestamp
         };
     }
 };
@@ -188,7 +188,7 @@ public:
         consensus.nSubsidyHalvingInterval = 2100000;     ////
         consensus.BIP16Height = 0; // 00000000040b4e986385315e14bee30ad876d8b47f748025b26683116d21aa65
         consensus.BIP34Height = 0;
-        consensus.BIP34Hash = uint256S("0x0000000023b3a96d3484e5abb3755c413e7d41500f8e2a5c3f0dd01299cd8ef8");
+        consensus.BIP34Hash = uint256();
         consensus.BIP65Height = 0; // 00000000007f6655f22f98e72ed80d8b06dc761d5da09df0fa1dc4be4f861eb6
         consensus.BIP66Height = 0; // 000000002104c8c45e99a8853285a3b592602a3ccde2b832481da85e9e4ba182
         consensus.powLimit = uint256S("7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");       //--//
@@ -229,7 +229,7 @@ public:
         genesis = CreateGenesisBlock(1528633535, 2981725424, 0x1d00ffff, 1, 21000000 * COIN);  //--// need to change to new time
         consensus.hashGenesisBlock = genesis.GetHash();
         assert(consensus.hashGenesisBlock == uint256S("0x0000000091530a84f72d5879f832ee2294c373b623d39c43805b6fcef7e6558d"));  //--// 
-        assert(genesis.hashMerkleRoot == uint256S("0x7d5dc8e6fa9514bab778f17596ad3aa3276c482a789a43ea39b8748ef1263691"));
+        assert(genesis.hashMerkleRoot == uint256S("0x465128c6c849443baeaf56d323b480796868e66b422a3975d243bdc6bdfe8012"));
         
         
         vFixedSeeds.clear();
@@ -257,15 +257,15 @@ public:
 
         checkpointData = {
             {
-                {0, uint256S("0x0000000091530a84f72d5879f832ee2294c373b623d39c43805b6fcef7e6558d")},  //--// need to put in test net genesis block hash
+  ////              {0, uint256S("0x0000000091530a84f72d5879f832ee2294c373b623d39c43805b6fcef7e6558d")},  //--// need to put in test net genesis block hash
             }
         };
 
         chainTxData = ChainTxData{
             // Data as of block 000000006f6e4710dee548e7ea74be5bafed8fb74e8cf7204c7151c6473355ea (height 0)
-            1528633535,       //--// 
-            0,       //--// 
-            0     //--// 
+////            1528633535,       //--// 
+////            0,       //--// 
+////            0     //--// 
         };
 
     }
@@ -328,14 +328,14 @@ public:
 
         checkpointData = {
             {
-                {0, uint256S("0x021a1757585c60fee872d5ff2d8e754a737a607246ba4955cd467b080fc80b33")},  //--//  need new hash
+      ////          {0, uint256S("0x021a1757585c60fee872d5ff2d8e754a737a607246ba4955cd467b080fc80b33")},  //--//  need new hash
             }
         };
 
         chainTxData = ChainTxData{
-            1528643231,
-            0,
-            0
+      ////      1528643231,
+      ////      0,
+      ////      0
         };
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,111);
