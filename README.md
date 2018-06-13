@@ -1,4 +1,4 @@
- Trading for Whatever, with Whoever, from Wherever, at Whenever, by However, & no Fee, using Blockchain.
+ To trade whatever, with whoever, from wherever, at whenever, by however, with no Fee, 06/06/2018.
 
  We believe the technology should bring more fair, trust, and profit to benefit everyone in the world, not just for someone, somewhere,
  sometime, and someway. With the help of blockchain technology we can make the world more beautiful.
