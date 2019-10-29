@@ -1,4 +1,4 @@
 
-cd C:\Users\yongr_g57dnkt\Desktop\UtopiaChain\bin
+cd C:.\Desktop\UtopiaChain\bin
 
-utopiacoin-qt.exe -conf="C:\Users\yongr_g57dnkt\Desktop\UtopiaChain\utopiacoin.txt"
+utopiacoin-qt.exe -conf="C:.\Desktop\UtopiaChain\utopiacoin.txt"
